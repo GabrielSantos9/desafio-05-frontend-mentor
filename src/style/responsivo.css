@@ -1,0 +1,220 @@
+@media (max-width: 1120px) {
+  .insights {
+    width: 29.375rem;
+    padding: 3rem 5.688rem 2.25rem 2.625rem;
+  }
+
+  .img {
+    width: 27.5rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .insights {
+    width: 25rem;
+    padding: 3rem 3.813rem 2.25rem 2.625rem;
+  }
+
+  .companies,
+  .templates,
+  .queries {
+    font-size: 0.625rem;
+  }
+
+  .results {
+    margin-top: 3.75rem;
+  }
+
+  .numbers {
+    font-size: 1.25rem;
+  }
+
+  .img {
+    width: 23.125rem;
+  }
+}
+
+@media (max-width: 790px) {
+  .insights {
+    width: 20.625rem;
+    height: 25rem;
+    padding: 3rem 1.75rem 2.25rem 2.625rem;
+  }
+
+  .titulo {
+    font-size: 1.75rem;
+  }
+
+  .paragrafo {
+    font-size: 0.75rem;
+    margin-top: 2rem;
+  }
+
+  .results-companies,
+  .results-templates,
+  .results-queries {
+    margin-right: 3rem;
+  }
+
+  .numbers {
+    font-size: 1rem;
+  }
+
+  .companies,
+  .templates,
+  .queries {
+    font-size: 0.5rem;
+  }
+
+  .img {
+    width: 18.75rem;
+    height: 25rem;
+    background: linear-gradient(
+        0deg,
+        hsla(277, 64%, 61%, 0.5) 0%,
+        hsla(277, 64%, 61%, 0.5) 100%
+      ),
+      url("../img/image-header-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 635px) {
+  .insights {
+    width: 17.5rem;
+    height: 20rem;
+    padding: 3rem 1.125rem 2.25rem 1.125rem;
+  }
+
+  .titulo {
+    font-size: 1.375rem;
+  }
+
+  .paragrafo {
+    font-size: 0.688rem;
+    margin-top: 1.875rem;
+  }
+
+  .results {
+    margin-top: 3.125rem;
+  }
+
+  .results-companies,
+  .results-templates,
+  .results-queries {
+    margin-right: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .numbers {
+    font-size: 1rem;
+  }
+
+  .companies,
+  .templates,
+  .queries {
+    font-size: 0.5rem;
+  }
+
+  .img {
+    width: 15.625rem;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .titulo {
+    font-size: 1.438rem;
+  }
+
+  .conteudo-principal {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 32.5rem;
+  }
+
+  .insights {
+    width: 17.5rem;
+    height: 20rem;
+    border-radius: 0px 0px 0.625rem 0.625rem;
+  }
+
+  .img {
+    width: 17.5rem;
+    height: 12.5rem;
+    border-radius: 0.625rem 0.625rem 0px 0px;
+    background-size: cover;
+    background-position: unset;
+  }
+}
+
+@media (max-width: 375px) {
+  .conteudo-principal {
+    width: 23.438rem;
+  }
+
+  .insights {
+    width: 20.438rem;
+    min-height: 33.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.75rem 2.188rem 2.375rem 2.188rem;
+  }
+
+  .titulo {
+    font-size: 1.438rem;
+    text-align: center;
+    letter-spacing: 1.1px;
+  }
+
+  .paragrafo {
+    font-size: 0.813rem;
+    margin-top: 1.375rem;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.6px;
+  }
+
+  .results {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .results-companies,
+  .results-templates,
+  .results-queries {
+    margin-right: 0px;
+  }
+
+  .numbers {
+    font-size: 1.25rem;
+  }
+
+  .companies,
+  .templates,
+  .queries {
+    font-size: 0.625rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .img {
+    width: 20.438rem;
+    min-height: 15rem;
+    background: linear-gradient(
+        0deg,
+        hsla(277, 64%, 61%, 0.5) 0%,
+        hsla(277, 64%, 61%, 0.5) 100%
+      ),
+      url("../img/image-header-mobile.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
